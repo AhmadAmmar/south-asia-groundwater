@@ -1,0 +1,29 @@
+region,var,trend_cm_per_yr,lo,hi,from,to
+Bengal delta,gwsa_cm,-0.16,-0.31,-0.0,2002-04,2026-09
+Bengal delta,snow_cm,0.0,0.0,0.0,2002-04,2026-09
+Bengal delta,soil_cm,-0.04,-0.2,0.11,2002-04,2026-09
+Bengal delta,twsa_cm,-0.22,-0.53,0.1,2002-04,2026-09
+Central Tibetan Plateau,gwsa_cm,-0.0,-0.03,0.02,2002-04,2026-09
+Central Tibetan Plateau,snow_cm,-0.0,-0.01,0.01,2002-04,2026-09
+Central Tibetan Plateau,soil_cm,0.1,0.05,0.15,2002-04,2026-09
+Central Tibetan Plateau,twsa_cm,0.09,0.05,0.14,2002-04,2026-09
+"Ganges plain (UP, Bihar)",gwsa_cm,-1.15,-1.21,-1.08,2002-04,2026-09
+"Ganges plain (UP, Bihar)",snow_cm,-0.0,-0.01,0.01,2002-04,2026-09
+"Ganges plain (UP, Bihar)",soil_cm,0.1,-0.06,0.27,2002-04,2026-09
+"Ganges plain (UP, Bihar)",twsa_cm,-1.04,-1.24,-0.84,2002-04,2026-09
+"Indus plains (Punjab, Sindh)",gwsa_cm,-1.04,-1.08,-1.0,2002-04,2026-09
+"Indus plains (Punjab, Sindh)",snow_cm,0.0,0.0,0.0,2002-04,2026-09
+"Indus plains (Punjab, Sindh)",soil_cm,0.34,0.29,0.39,2002-04,2026-09
+"Indus plains (Punjab, Sindh)",twsa_cm,-0.69,-0.76,-0.61,2002-04,2026-09
+"NW India (Punjab, Haryana, Rajasthan, Delhi)",gwsa_cm,-3.68,-3.78,-3.58,2002-04,2026-09
+"NW India (Punjab, Haryana, Rajasthan, Delhi)",snow_cm,-0.01,-0.01,-0.0,2002-04,2026-09
+"NW India (Punjab, Haryana, Rajasthan, Delhi)",soil_cm,0.28,0.19,0.37,2002-04,2026-09
+"NW India (Punjab, Haryana, Rajasthan, Delhi)",twsa_cm,-3.42,-3.56,-3.27,2002-04,2026-09
+Peninsular India (hard rock),gwsa_cm,-0.02,-0.14,0.1,2002-04,2026-09
+Peninsular India (hard rock),snow_cm,0.0,0.0,0.0,2002-04,2026-09
+Peninsular India (hard rock),soil_cm,0.48,0.34,0.62,2002-04,2026-09
+Peninsular India (hard rock),twsa_cm,0.55,0.3,0.8,2002-04,2026-09
+Upper Indus and Karakoram (mostly glacier),gwsa_cm,-0.7,-0.84,-0.56,2002-04,2026-09
+Upper Indus and Karakoram (mostly glacier),snow_cm,-0.22,-0.35,-0.12,2002-04,2026-09
+Upper Indus and Karakoram (mostly glacier),soil_cm,-0.01,-0.04,0.02,2002-04,2026-09
+Upper Indus and Karakoram (mostly glacier),twsa_cm,-0.96,-1.14,-0.79,2002-04,2026-09
