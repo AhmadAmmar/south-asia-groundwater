@@ -39,6 +39,7 @@ REGIONS = {                                           # simple boxes for a first
 
 
 def grace():
+    """GRACE/GRACE-FO JPL mascon land water-equivalent anomalies (cm) over the region; reuses the newest download."""
     have = sorted(RAW.glob("GRCTellus.JPL.*.nc"))
     if have:                                   # reuse the download; delete it to fetch a newer release
         f = have[-1]
@@ -60,6 +61,7 @@ def grace():
 
 
 def era5_stores(times):
+    """Monthly ERA5-Land soil moisture, snow and canopy water anomalies (cm) on a 0.5 deg grid, from Earth Engine; cached."""
     f = P / "era5land_stores_anom_0p5.nc"
     if f.exists():
         return xr.open_dataset(f)
@@ -67,6 +69,7 @@ def era5_stores(times):
     ee.Initialize(project="ee-ahmadammargeo")
     col = ee.ImageCollection("ECMWF/ERA5_LAND/MONTHLY_AGGR").filterDate("2002-01-01", "2027-01-01")
     def stores(i):
+        """Soil water (layers weighted by depth, 0.07+0.21+0.72+1.89 m), snow and canopy water of one month, in cm."""
         sm = (i.select("volumetric_soil_water_layer_1").multiply(0.07).add(i.select("volumetric_soil_water_layer_2").multiply(0.21))
               .add(i.select("volumetric_soil_water_layer_3").multiply(0.72)).add(i.select("volumetric_soil_water_layer_4").multiply(1.89)))
         return ee.Image.cat(sm.multiply(100).rename("soil_cm"), i.select("snow_depth_water_equivalent").multiply(100).rename("snow_cm"),
@@ -96,6 +99,7 @@ def era5_stores(times):
 
 
 def theil_sen(t, y):
+    """Theil-Sen slope with its 95% bounds per year from monthly data; NaN when fewer than 24 valid months."""
     from scipy.stats import theilslopes
     ok = np.isfinite(y)
     if ok.sum() < 24:
@@ -105,6 +109,7 @@ def theil_sen(t, y):
 
 
 def main():
+    """Groundwater anomaly = GRACE total water minus ERA5-Land soil, snow and canopy stores; trends, tables and figures."""
     tw = grace()
     st = era5_stores(tw.time)
     st = st.interp(lat=tw.lat, lon=tw.lon, method="nearest")
@@ -141,6 +146,7 @@ def main():
 
 
 def figures(gw, df):
+    """Figures: regional groundwater anomaly series and the trend map."""
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
