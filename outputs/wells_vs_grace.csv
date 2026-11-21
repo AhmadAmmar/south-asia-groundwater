@@ -1,0 +1,11 @@
+unit,season,wells,depth_slope_med_m_yr,depth_slope_q25,depth_slope_q75,share_falling,aquifer,storage_lo_cm_yr,storage_hi_cm_yr,grace_mean_2013-2017,grace_mean_2013-2020,grace_min_2013-2017,grace_min_2013-2020,grace_max_2013-2017,grace_max_2013-2020
+"Bihar, Jharkhand",pre-monsoon,645,0.117,-0.07,0.332,0.66,hard rock / mixed,-0.35,-0.117,-1.228,-0.263,-2.132,-0.596,-0.064,0.208
+Gujarat,pre-monsoon,768,0.08,-0.233,0.543,0.587,alluvium,-1.278,-0.639,-0.364,-0.439,-1.907,-0.78,1.465,0.089
+"Indian Punjab, Haryana, Delhi",pre-monsoon,500,0.249,0.028,0.676,0.784,alluvium,-3.991,-1.995,-3.643,-5.335,-5.48,-7.308,-1.839,-4.12
+"Madhya Pradesh, Chhattisgarh",pre-monsoon,1799,0.17,-0.076,0.456,0.678,hard rock / mixed,-0.51,-0.17,-0.907,-0.23,-1.682,-0.913,0.158,0.551
+Maharashtra,pre-monsoon,1360,0.205,-0.029,0.533,0.712,hard rock / mixed,-0.615,-0.205,0.106,0.047,-0.437,-0.219,0.748,0.389
+Pakistan Punjab,pre-monsoon,50,0.092,-0.019,0.19,0.66,alluvium,-1.474,-0.737,-0.634,-1.929,-2.147,-2.163,0.429,-1.659
+Rajasthan,pre-monsoon,761,0.102,-0.265,0.612,0.585,alluvium,-1.634,-0.817,-2.641,-3.624,-3.822,-4.31,-1.164,-3.068
+South India (hard rock),pre-monsoon,2854,0.138,-0.107,0.417,0.656,hard rock / mixed,-0.415,-0.138,-0.707,-0.354,-1.706,-0.903,0.698,0.328
+"Uttar Pradesh, Uttarakhand",pre-monsoon,742,0.239,0.065,0.512,0.84,alluvium,-3.832,-1.916,-4.006,-5.232,-5.797,-6.626,-2.024,-3.66
+"Western Himalaya, Karakoram",pre-monsoon,235,0.124,-0.006,0.278,0.732,alluvium,-1.983,-0.991,-0.111,-1.082,-1.757,-1.731,1.902,-0.27

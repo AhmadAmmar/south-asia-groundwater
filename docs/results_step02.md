@@ -108,3 +108,29 @@ and recharge works, crop or energy changes, or simply a lower water table and fe
 half the recent flattening is rain. In Gujarat the gains are mostly not rain (Narmada canal water and check-dams fit
 this). Pakistan's Punjab shows no slowdown. "The rest" is everything the rainfall term does not explain, including
 canal seepage and model error, so it is an upper bound on the effect of pumping changes, not a measurement of pumping.
+
+## Check against wells (src/05_wells_check.py)
+
+Open well data were found after all: CGWB depth-to-water for about 23,000 stations, 2013-2023 (dense to 2020), mirrored
+from India-WRIS by the India Data Portal under the Open Data Commons Attribution License. Per unit, the median trend of
+May (pre-monsoon) depth over 2013-2020 was converted to storage with specific-yield ranges (alluvium 0.08-0.16, hard
+rock 0.01-0.03) and compared with the GRACE ensemble over the same months.
+
+| Unit | Wells | Wells falling | Wells: storage cm/yr | GRACE 2013-2020 cm/yr |
+|---|---|---|---|---|
+| Indian Punjab, Haryana, Delhi | 500 | 78% | -2.0 to -4.0 | -5.3 (-7.3 to -4.1) |
+| Uttar Pradesh, Uttarakhand | 742 | 84% | -1.9 to -3.8 | -5.2 |
+| Rajasthan | 761 | 58% | -0.8 to -1.6 | -3.6 |
+| Gujarat | 768 | 59% | -0.6 to -1.3 | -0.4 |
+| South India (hard rock) | 2,854 | 66% | -0.1 to -0.4 | -0.4 |
+| Madhya Pradesh, Chhattisgarh | 1,799 | 68% | -0.2 to -0.5 | -0.2 |
+| Maharashtra | 1,360 | 71% | -0.2 to -0.6 | +0.1 |
+| Bihar, Jharkhand | 645 | 66% | -0.1 to -0.4 | -0.3 |
+
+Across ten units the ranking agrees well (Spearman 0.85); GRACE lies within the well range (+/-0.5 cm/yr) in 7 of 10.
+GRACE is steeper than the wells in the three northern alluvial units. Over 2013-2017 alone it is closer
+(Punjab-Haryana-Delhi -3.6, UP -4.0), so most of the excess comes from the 2016-17 drop and the uncertain step across the
+mission gap that sit inside the 2013-2020 window. ("Pakistan Punjab" and "Western Himalaya" rows in the csv use Indian
+wells near the border and in Jammu and Kashmir only, and are not a test of those units.)
+Wells measure points and GRACE measures regions, and specific yield is uncertain by a factor of two, so agreement in
+rank and rough size is the realistic test; it is met.
