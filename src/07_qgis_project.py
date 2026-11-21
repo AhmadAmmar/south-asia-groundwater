@@ -12,8 +12,8 @@ import sys
 from pathlib import Path
 
 R = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(Path.home() / "dev/commons-city/src"))
-from engines import qgiskit as qk  # noqa: E402
+sys.path.insert(0, str(Path.home() / "dev/research-helpers/src"))
+from research_helpers import qgis as qk  # noqa: E402
 
 O = R / "outputs/qgis"; G = str(O / "groundwater.gpkg")
 DIV = ["#8c2d04", "#cc4c02", "#ec7014", "#fec44f", "#f7f7f7", "#9ecae1", "#4292c6", "#08519c"]
@@ -28,7 +28,7 @@ for field, name, vis in (("trend_whole", "Whole record 2002-2026 (ensemble mean)
     l = qk.vec(G, "units", name); qk.grad(l, field, BRK, DIV, LAB, opacity=.85, outline=True); qk.label(l, "unit", 7)
     qk.add(P, l, groups["Units: groundwater trend (cm of water per year)"], visible=vis)
 nr = qk.vec(G, "units", "Too small for GRACE alone (gain < 0.5 or > half the signal from neighbours)", subset="resolvable = 'False'")
-qk.single(nr, None, "#000000", 0.8); nr.renderer().symbol().symbolLayer(0).setStrokeStyle(qk.Qt.PenStyle.DashLine)
+qk.single(nr, None, "#000000", 0.8); qk.dashed(nr)
 qk.add(P, nr, groups["Units: groundwater trend (cm of water per year)"])
 F = O / "fine.gpkg"                                   # steps 08-11: districts and 0.1 deg grids, if built
 if F.exists():
