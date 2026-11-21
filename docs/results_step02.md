@@ -85,3 +85,26 @@ Delhi, Rajasthan, UP, Bihar): about -24, -14 and -7 km3/yr over the three period
 - Mountain changes are ice, not groundwater.
 - Every number is an average over a large area with a range; a flat or slowing average can hide districts where the
   water table keeps falling. Downscaling with wells (step 04) is how those districts will be found.
+
+## Rainfall or people? (src/04_climate_vs_pumping.py, first pass)
+
+Each member's series was fitted with a rainfall memory term (ERA5-Land precipitation anomalies through an exponential
+memory of 3-60 months, Humphrey et al. 2017) plus a trend, a mission step and the seasonal cycle; the rainfall-driven
+part and the rest were then given their own trends per period (median of the eight members, cm/yr):
+
+| Unit | Rest 2002-09 | Rest 2010-17 | Rest 2018- | Rainfall part 2018- | Memory (months) |
+|---|---|---|---|---|---|
+| Indian Punjab, Haryana, Delhi | -4.1 | -2.6 | -2.3 | +0.2 | 35 |
+| Uttar Pradesh, Uttarakhand | -2.8 | -1.9 | -1.2 | +0.3 | 60 |
+| Rajasthan | -2.0 | -2.3 | -0.6 | +0.7 | 60 |
+| Pakistan Punjab | -1.4 | -0.7 | -1.0 | -0.1 | 35 |
+| Bihar, Jharkhand | -1.5 | -0.5 | +0.3 | 0.0 | 35 |
+| Gujarat | -0.2 | +0.8 | +1.8 | +0.4 | 18 |
+| South India (hard rock) | -0.7 | -0.1 | +0.6 | +1.0 | 36 |
+
+Reading: in Punjab-Haryana-Delhi and UP the slowdown is in "the rest", not in rainfall: wetter years after 2018 explain
+only 0.2-0.3 cm/yr of it. Something about water use or recharge changed (the 2009 paddy-transplanting law, canal
+and recharge works, crop or energy changes, or simply a lower water table and fewer working wells). In Rajasthan about
+half the recent flattening is rain. In Gujarat the gains are mostly not rain (Narmada canal water and check-dams fit
+this). Pakistan's Punjab shows no slowdown. "The rest" is everything the rainfall term does not explain, including
+canal seepage and model error, so it is an upper bound on the effect of pumping changes, not a measurement of pumping.

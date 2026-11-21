@@ -173,6 +173,23 @@ def glacier():
     print("glacier cm/yr: min %.2f, cells with loss %d" % (np.nanmin(a), int((a < -0.01).sum())), flush=True)
 
 
+def precip():
+    """ERA5-Land monthly precipitation (mm/month) on the 0.5 deg grid, 2000-01 to the latest month, for step 04."""
+    ee = _ee()
+    f = P / "precip_era5land_0p5.nc"
+    if f.exists():
+        return
+    col = ee.ImageCollection("ECMWF/ERA5_LAND/MONTHLY_AGGR").filterDate("2000-01-01", "2027-01-01").select("total_precipitation_sum")
+    ts = col.aggregate_array("system:time_start").getInfo(); lst = col.toList(len(ts)); arr = []
+    for k, t in enumerate(ts):
+        arr.append(_pixels(ee, ee.Image(lst.get(k)).multiply(1000).rename("p"), ["p"])["p"])
+        if k % 24 == 0:
+            print("  precip", pd.Timestamp(t, unit="ms").date(), flush=True)
+    xr.DataArray(np.array(arr), dims=("time", "lat", "lon"), name="precip_mm",
+                 coords={"time": pd.to_datetime(ts, unit="ms").to_period("M").to_timestamp(), "lat": LATS, "lon": LONS}).to_netcdf(f)
+    print("wrote", f.name, flush=True)
+
+
 def wells():
     """Download and unpack the Jasechko et al. 2024 groundwater-level and aquifer files."""
     import urllib.request
@@ -188,4 +205,4 @@ def wells():
 
 
 if __name__ == "__main__":
-    {"grace": grace, "stores": stores, "glacier": glacier, "wells": wells}[sys.argv[1]]()
+    {"grace": grace, "stores": stores, "glacier": glacier, "wells": wells, "precip": precip}[sys.argv[1]]()
