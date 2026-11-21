@@ -12,8 +12,8 @@ Predictors (why each one can tell where groundwater is being lost inside a GRACE
   ndvi_dry_trend  change in that (per decade): expanding or intensifying dry-season irrigation
   cropland        Copernicus Global Land Cover 100 m (2019), cropland cover fraction (0-1)
   et              MODIS MOD16A2GF evapotranspiration, mm/yr: water leaving the land, including pumped irrigation water
-  precip          CHIRPS rainfall, mm/yr: recharge supply
-  precip_trend    CHIRPS rainfall trend, mm/yr per decade
+  precip          ERA5-Land rainfall, mm/yr: recharge supply
+  precip_trend    ERA5-Land rainfall trend, mm/yr per decade (CHIRPS rejected: 2009-10 step over Punjab)
   lst_dry         MODIS MOD11A2 daytime land surface temperature, Mar-May, C: hot dry land vs cooled irrigated land
   pop             GPWv4.11 population density 2020, log10(people/km2 + 1): domestic and urban pumping
   elev, slope     SRTM / GMTED elevation (m) and slope (degrees): plains with aquifers vs mountains
@@ -56,9 +56,11 @@ def predictors(ee):
     ndvi_tr = yearly_trend("MODIS/061/MOD13A2", "NDVI", 1, 4, 1e-4)
     crop = ee.Image("COPERNICUS/Landcover/100m/Proba-V-C3/Global/2019").select("crops-coverfraction").divide(100)
     et = ee.ImageCollection("MODIS/061/MOD16A2GF").filter(yrs).select("ET").mean().multiply(0.1 * 365 / 8)   # kg/m2/8d -> mm/yr
-    chirps = "UCSB-CHG/CHIRPS/PENTAD"
-    pr = ee.ImageCollection(chirps).filter(yrs).select("precipitation").sum().divide(22)
-    pr_tr = yearly_trend(chirps, "precipitation", 1, 12, 1, "sum")
+    # Rainfall from ERA5-Land (~9 km), not CHIRPS: CHIRPS has a step of about +100 % in 2009-2010 over Punjab
+    # (station inputs changed; ERA5-Land shows none), which made its trend a false "predictor" (docs/lessons.md).
+    era = "ECMWF/ERA5_LAND/MONTHLY_AGGR"
+    pr = ee.ImageCollection(era).filter(yrs).select("total_precipitation_sum").sum().multiply(1000).divide(22)
+    pr_tr = yearly_trend(era, "total_precipitation_sum", 1, 12, 1000, "sum")
     lst = season("MODIS/061/MOD11A2", "LST_Day_1km", 3, 5, 0.02, -273.15)
     pop = ee.ImageCollection("CIESIN/GPWv411/GPW_Population_Density").filter(ee.Filter.eq("system:index", "gpw_v4_population_density_rev11_2020_30_sec")).first().add(1).log10()
     dem = ee.Image("USGS/GMTED2010_FULL").select("min")
@@ -96,6 +98,12 @@ def districts(ee):
 def main():
     ee = ee_init()
     f = P / "fine_predictors_0p1.nc"
+    if f.exists() and "--refetch" in sys.argv:              # e.g. --refetch precip precip_trend
+        names = sys.argv[sys.argv.index("--refetch") + 1:]; preds = predictors(ee)
+        ds = xr.load_dataset(f)
+        for k in names:
+            ds[k] = (("lat", "lon"), fetch(ee, preds[k], k))
+        ds.to_netcdf(f)
     if not f.exists():
         arrs = {k: fetch(ee, img, k) for k, img in predictors(ee).items()}
         ds = xr.Dataset({k: (("lat", "lon"), v) for k, v in arrs.items()}, coords={"lat": LATS, "lon": LONS})

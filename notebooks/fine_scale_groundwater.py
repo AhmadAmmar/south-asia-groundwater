@@ -117,14 +117,14 @@ fig.colorbar(im, ax=ax, shrink=.8, label="groundwater trend, cm/yr"); plt.show()
 # ## 5. The test: do the wells agree with the extra detail?
 # The rows of the table above beyond the first two compare, by rank correlation, the 2013-2020 trends with the wells,
 # for the downscaled map and for plain GRACE:
-# - **0.1° cells with wells**: downscaled 0.08 vs plain GRACE 0.08.
-# - **districts**: 0.45 vs 0.44.
+# - **0.1° cells with wells**: downscaled and plain GRACE both about 0.08.
+# - **districts**: both about 0.44.
 # - **within GRACE cells** (the detail itself: inside one 0.5° cell, are the fine cells the model calls worse the ones
-#   where wells fall faster?): 0.03, essentially none.
+#   where wells fall faster?): about 0.02, essentially none.
 #
 # A second attempt trained the within-cell pattern on the wells themselves, with 2° blocks held out: rank correlation
-# -0.001. With these predictors, **the variation of groundwater loss inside a GRACE cell cannot be recovered**. The
-# forest's skill at 0.5° (R² 0.2-0.3) comes from large-scale gradients, mainly the rainfall trend, not from where pumping
+# about 0.01. With these predictors, **the variation of groundwater loss inside a GRACE cell cannot be recovered**. The
+# forest's skill at 0.5° (R² 0.2-0.3) comes from large-scale gradients (wet vs dry, plains vs mountains), not from where pumping
 # is heavier within a cell.
 #
 # What this means for the maps:

@@ -1,7 +1,7 @@
 period,cells_0p5,cv_r2_0p5,level,n,spearman_downscaled,spearman_plain_grace
-whole,3793.0,0.221,,,,
-2013_2020,3793.0,0.268,,,,
-,,,0.1 deg cells with wells,6881.0,0.082,0.076
-,,,"within GRACE cells (anomalies, cells with >= 4 well cells)",6604.0,0.03,0.0
-,,,districts with >= 5 wells,382.0,0.447,0.437
-,,,"within GRACE cells, model trained on wells (2 deg blocks held out)",6704.0,-0.001,0.0
+whole,3793.0,0.2,,,,
+2013_2020,3793.0,0.252,,,,
+,,,0.1 deg cells with wells,6861.0,0.076,0.075
+,,,"within GRACE cells (anomalies, cells with >= 4 well cells)",6575.0,0.021,0.0
+,,,districts with >= 5 wells,381.0,0.441,0.438
+,,,"within GRACE cells, model trained on wells (2 deg blocks held out)",6672.0,0.01,0.0

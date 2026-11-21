@@ -201,7 +201,7 @@ def m07():
     frame(fig, "Sharper is not the same as right",
           "Left: GRACE's groundwater trend 2002-latest on a 0.1 degree grid, showing the mascon blocks the mission actually solves for. Right: a random forest\n"
           "spreads each block's water by irrigation, heat, rain and population maps. Tested on wells, the extra detail does not hold up (map 11).",
-          SRC_G + "; predictors MODIS, CHIRPS, Copernicus land cover, GPWv4, GMTED", "07_grace_resolution_vs_downscaled.png")
+          SRC_G + "; predictors MODIS, ERA5-Land, Copernicus land cover, GPWv4, GMTED", "07_grace_resolution_vs_downscaled.png")
 
 
 def m08():

@@ -1,0 +1,9 @@
+predictor,spearman_with_storage_change,ci_lo,ci_hi
+cropland share,-0.406,-0.49,-0.305
+population density (log10),-0.251,-0.345,-0.157
+"dry-season greenness (NDVI, Jan-Apr)",-0.149,-0.254,-0.042
+land temperature Mar-May (C),0.073,-0.03,0.175
+change in dry-season greenness (per decade),0.127,0.023,0.231
+rainfall trend (mm/yr per decade),0.154,0.054,0.249
+rainfall (mm/yr),0.327,0.22,0.432
+evapotranspiration (mm/yr),0.491,0.396,0.58
