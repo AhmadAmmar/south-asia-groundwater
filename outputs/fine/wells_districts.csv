@@ -1,0 +1,384 @@
+ADM0_NAME,ADM1_NAME,ADM2_NAME,ADM2_CODE,aquifer,unit,wells,slope_median_m_yr,slope_q25,slope_q75,share_falling,storage_lo_cm_yr,storage_hi_cm_yr,storage_mid_cm_yr
+India,Haryana,Karnal,17660,alluvium,"Indian Punjab, Haryana, Delhi",18,0.7312,0.2955,1.3178,0.8889,-11.6985,-5.8492,-8.7739
+India,Haryana,Kurukshetra,17661,alluvium,"Indian Punjab, Haryana, Delhi",16,0.9754,0.6579,1.3829,0.875,-15.6069,-7.8034,-11.7051
+India,Haryana,Sonepat,17665,alluvium,"Indian Punjab, Haryana, Delhi",22,0.26,0.1283,0.4009,0.7727,-4.1607,-2.0803,-3.1205
+India,Haryana,Kaithal,70134,alluvium,"Indian Punjab, Haryana, Delhi",11,0.8474,0.3864,1.093,1.0,-13.5589,-6.7794,-10.1691
+India,Haryana,Panipat,70136,alluvium,"Indian Punjab, Haryana, Delhi",11,0.6463,0.4035,1.3727,0.9091,-10.3406,-5.1703,-7.7554
+India,Haryana,Yamuna Nagar,70138,alluvium,"Indian Punjab, Haryana, Delhi",12,0.1126,-0.0089,0.3647,0.5,-1.8017,-0.9008,-1.3513
+India,Rajasthan,Bharatpur,17838,alluvium,Rajasthan,26,0.4376,0.2021,0.8181,0.8077,-7.0009,-3.5005,-5.2507
+India,Rajasthan,Dhaulpur,17844,alluvium,Rajasthan,10,0.8514,0.2054,1.0694,0.8,-13.6229,-6.8114,-10.2171
+India,Jharkhand,Purba Singhbhum,70153,hard,"Bihar, Jharkhand",11,-0.1271,-0.4128,0.012,0.0909,0.1271,0.3814,0.2543
+India,Rajasthan,Kota,17853,alluvium,Rajasthan,14,-0.1217,-0.3968,0.2052,0.2857,0.9737,1.9474,1.4606
+India,Rajasthan,Baran,70236,alluvium,Rajasthan,14,-0.0023,-0.0929,0.2762,0.3571,0.0186,0.0371,0.0279
+India,Punjab,Patiala,17831,alluvium,"Indian Punjab, Haryana, Delhi",18,0.8959,0.2035,1.2572,0.7778,-14.3337,-7.1669,-10.7503
+India,Punjab,Rupnagar,17832,alluvium,"Western Himalaya, Karakoram",12,0.1092,0.0258,0.3661,0.5,-1.7473,-0.8736,-1.3104
+India,Punjab,Fatehgarh Sahib,70231,alluvium,"Indian Punjab, Haryana, Delhi",7,0.615,0.1925,0.7392,0.7143,-9.84,-4.92,-7.38
+India,Haryana,Ambala,17654,alluvium,"Indian Punjab, Haryana, Delhi",11,0.0336,-0.0963,0.2092,0.3636,-0.5371,-0.2686,-0.4029
+India,Uttar Pradesh,Kushinagar,70271,alluvium,"Uttar Pradesh, Uttarakhand",5,0.1604,0.0956,0.2471,0.6,-2.5657,-1.2829,-1.9243
+India,Punjab,Bathinda,17822,alluvium,"Indian Punjab, Haryana, Delhi",24,0.4349,0.1678,1.0028,0.9167,-6.9589,-3.4794,-5.2191
+India,Punjab,Hoshiarpur,17827,alluvium,"Indian Punjab, Haryana, Delhi",14,0.3184,0.0394,0.4762,0.6429,-5.0949,-2.5474,-3.8211
+India,Punjab,Mansa,70232,alluvium,"Indian Punjab, Haryana, Delhi",9,0.3563,0.2614,0.7873,0.8889,-5.7006,-2.8503,-4.2754
+India,Punjab,Muktsar,70234,alluvium,"Indian Punjab, Haryana, Delhi",10,0.0435,0.014,0.189,0.4,-0.6957,-0.3478,-0.5218
+India,Punjab,Nawan Shehar,70235,alluvium,"Indian Punjab, Haryana, Delhi",6,0.1641,-0.0196,0.7276,0.5,-2.6251,-1.3126,-1.9689
+India,Uttar Pradesh,Hamirpur,17915,alluvium,"Uttar Pradesh, Uttarakhand",8,0.549,0.2406,0.7999,0.75,-8.7846,-4.3923,-6.5884
+India,Uttar Pradesh,Mahoba,70273,alluvium,"Uttar Pradesh, Uttarakhand",6,0.5066,0.2683,0.6957,1.0,-8.1063,-4.0531,-6.0797
+India,Punjab,Faridkot,70230,alluvium,"Indian Punjab, Haryana, Delhi",9,0.213,0.0772,0.2979,0.6667,-3.408,-1.704,-2.556
+India,Punjab,Moga,70233,alluvium,"Indian Punjab, Haryana, Delhi",6,0.9854,0.885,1.1032,1.0,-15.7669,-7.8834,-11.8251
+India,Rajasthan,Jaipur,17847,alluvium,Rajasthan,26,0.5226,0.0934,1.1097,0.7308,-8.3611,-4.1806,-6.2709
+India,Rajasthan,Udaipur,17860,alluvium,Rajasthan,40,-0.0689,-0.3524,0.2006,0.4,0.5514,1.1028,0.8271
+India,Rajasthan,Dausa,70237,alluvium,Rajasthan,7,1.6751,1.3426,3.7087,1.0,-26.8023,-13.4011,-20.1017
+India,Rajasthan,Rajsamand,70240,alluvium,Rajasthan,25,-0.135,-0.3377,0.058,0.24,1.08,2.16,1.62
+India,Uttar Pradesh,Bahraich,17893,alluvium,"Uttar Pradesh, Uttarakhand",8,0.0229,0.0033,0.0864,0.25,-0.3657,-0.1829,-0.2743
+India,Uttar Pradesh,Shravasti,70277,alluvium,"Uttar Pradesh, Uttarakhand",14,0.0496,-0.0296,0.0917,0.2143,-0.7929,-0.3965,-0.5947
+India,Uttarakhand,Udham Singh Nagar,70288,alluvium,"Uttar Pradesh, Uttarakhand",17,0.1389,0.0561,0.17,0.6471,-2.2231,-1.1116,-1.6673
+India,Rajasthan,Sawai Madhopur,17856,alluvium,Rajasthan,14,0.3778,0.2422,0.6929,0.8571,-6.0446,-3.0223,-4.5334
+India,Rajasthan,Karauli,70239,alluvium,Rajasthan,12,0.3439,-0.3486,0.8645,0.5833,-5.5029,-2.7514,-4.1271
+India,Uttar Pradesh,Aligarh,17889,alluvium,"Uttar Pradesh, Uttarakhand",8,0.1743,0.1208,0.2973,0.875,-2.7886,-1.3943,-2.0914
+India,Uttar Pradesh,Allahabad,17890,alluvium,"Uttar Pradesh, Uttarakhand",20,0.4891,0.3302,0.672,0.95,-7.8257,-3.9129,-5.8693
+India,Uttar Pradesh,Banda,17895,alluvium,"Uttar Pradesh, Uttarakhand",7,0.2379,0.0746,0.6405,0.5714,-3.8057,-1.9029,-2.8543
+India,Uttar Pradesh,Mathura,17925,alluvium,"Uttar Pradesh, Uttarakhand",12,0.078,-0.0454,0.2231,0.4167,-1.2486,-0.6243,-0.9364
+India,Uttar Pradesh,Moradabad,17928,alluvium,"Uttar Pradesh, Uttarakhand",9,0.246,0.2,0.404,0.7778,-3.936,-1.968,-2.952
+India,Uttar Pradesh,Varanasi,17943,alluvium,"Uttar Pradesh, Uttarakhand",11,-0.0641,-0.2209,0.0316,0.0909,0.5131,1.0262,0.7697
+India,Uttar Pradesh,Balrampur,70261,alluvium,"Uttar Pradesh, Uttarakhand",13,0.07,0.0454,0.1546,0.3846,-1.12,-0.56,-0.84
+India,Uttar Pradesh,Chandauli,70262,alluvium,"Uttar Pradesh, Uttarakhand",9,0.4218,-0.0411,0.6713,0.5556,-6.7486,-3.3743,-5.0614
+India,Uttar Pradesh,Chitrakoot,70263,alluvium,"Uttar Pradesh, Uttarakhand",5,0.6525,0.6482,0.8175,1.0,-10.44,-5.22,-7.83
+India,Uttar Pradesh,Jyotiba Phule Nagar,70267,alluvium,"Uttar Pradesh, Uttarakhand",7,0.344,0.2069,0.6086,1.0,-5.504,-2.752,-4.128
+India,Uttar Pradesh,Kaushambi,70270,alluvium,"Uttar Pradesh, Uttarakhand",5,0.3279,0.2942,0.5232,0.8,-5.2457,-2.6229,-3.9343
+India,Gujarat,Bharuch,17638,alluvium,Gujarat,35,-0.0589,-0.6259,0.2546,0.3714,0.4714,0.9429,0.7071
+India,Gujarat,Junagadh,17642,alluvium,Gujarat,52,0.0982,-0.1388,0.5217,0.5,-1.5714,-0.7857,-1.1786
+India,Gujarat,Kheda,17644,alluvium,Gujarat,24,0.0099,-0.3181,0.3064,0.375,-0.1588,-0.0794,-0.1191
+India,Gujarat,Anand,70124,alluvium,Gujarat,23,0.3886,-0.0652,0.8613,0.5652,-6.2171,-3.1086,-4.6629
+India,Gujarat,Dahod,70125,alluvium,Gujarat,27,0.1029,-0.1473,0.3058,0.5185,-1.6457,-0.8229,-1.2343
+India,Gujarat,Narmada,70126,alluvium,Gujarat,15,-0.0311,-0.2102,0.4574,0.4,0.2486,0.4971,0.3729
+India,Gujarat,Panch Mahals,70128,alluvium,Gujarat,20,0.2008,0.0424,0.3512,0.65,-3.212,-1.606,-2.409
+India,Gujarat,Porbandar,70130,alluvium,Gujarat,25,0.1106,-0.1289,1.3957,0.56,-1.7699,-0.885,-1.3275
+India,Haryana,Hisar,17658,alluvium,"Indian Punjab, Haryana, Delhi",29,0.0877,-0.1711,0.1401,0.4483,-1.4034,-0.7017,-1.0526
+India,Haryana,Rohtak,17663,alluvium,"Indian Punjab, Haryana, Delhi",8,0.0668,-0.1392,0.1623,0.375,-1.0686,-0.5343,-0.8014
+India,Haryana,Fatehabad,70132,alluvium,"Indian Punjab, Haryana, Delhi",6,0.2178,0.013,1.5709,0.5,-3.4846,-1.7423,-2.6134
+India,Haryana,Jhajjar,70133,alluvium,"Indian Punjab, Haryana, Delhi",11,-0.1204,-0.2646,0.0521,0.2727,0.9634,1.9269,1.4451
+India,Maharashtra,Nandurbar,70185,hard,"Madhya Pradesh, Chhattisgarh",26,0.2611,0.1267,0.6948,0.7692,-0.7832,-0.2611,-0.5221
+India,Rajasthan,Ganganagar,17846,alluvium,Rajasthan,42,-0.1675,-0.3331,0.0452,0.2381,1.34,2.68,2.01
+India,Rajasthan,Hanumangarh,70238,alluvium,Rajasthan,29,-0.063,-0.3136,0.1479,0.3448,0.504,1.008,0.756
+India,Chhattisgarh,Bilaspur,70106,hard,"Madhya Pradesh, Chhattisgarh",62,0.32,0.1627,0.6213,0.7581,-0.96,-0.32,-0.64
+India,Chhattisgarh,Jashpur,70110,hard,"Madhya Pradesh, Chhattisgarh",51,0.0982,-0.0909,0.2643,0.4706,-0.2946,-0.0982,-0.1964
+India,Chhattisgarh,Kawardha,70112,hard,"Madhya Pradesh, Chhattisgarh",15,0.267,0.095,0.4577,0.6667,-0.801,-0.267,-0.534
+India,Chhattisgarh,Korba,70113,hard,"Madhya Pradesh, Chhattisgarh",44,0.2061,0.0874,0.4476,0.7273,-0.6182,-0.2061,-0.4121
+India,Chhattisgarh,Koriya,70114,hard,"Madhya Pradesh, Chhattisgarh",18,0.2752,-0.0805,0.6102,0.6667,-0.8255,-0.2752,-0.5504
+India,Chhattisgarh,Surguja,70118,hard,"Madhya Pradesh, Chhattisgarh",49,0.109,-0.235,0.445,0.5306,-0.327,-0.109,-0.218
+India,Madhya Pradesh,Hoshangabad,17728,hard,"Madhya Pradesh, Chhattisgarh",18,0.2732,0.0754,0.7849,0.6667,-0.8196,-0.2732,-0.5464
+India,Madhya Pradesh,Jabalpur,17730,hard,"Madhya Pradesh, Chhattisgarh",16,0.0008,-0.147,0.2091,0.3125,-0.0024,-0.0008,-0.0016
+India,Madhya Pradesh,Mandla,17732,hard,"Madhya Pradesh, Chhattisgarh",28,0.0898,0.0142,0.2313,0.4643,-0.2695,-0.0898,-0.1796
+India,Madhya Pradesh,Mandsaur,17733,hard,"Madhya Pradesh, Chhattisgarh",44,-0.0029,-0.3541,0.3854,0.4091,0.0029,0.0087,0.0058
+India,Madhya Pradesh,Morena,17734,hard,"Madhya Pradesh, Chhattisgarh",9,0.5854,0.0271,0.628,0.6667,-1.7561,-0.5854,-1.1707
+India,Madhya Pradesh,Rajgarh,17741,hard,"Madhya Pradesh, Chhattisgarh",29,0.3204,0.084,0.5958,0.7241,-0.9611,-0.3204,-0.6407
+India,Madhya Pradesh,West Nimar,17756,hard,"Madhya Pradesh, Chhattisgarh",27,-0.0364,-0.2986,0.1896,0.3704,0.0364,0.1093,0.0729
+India,Madhya Pradesh,Barwani,70170,hard,"Madhya Pradesh, Chhattisgarh",11,-0.3089,-0.5727,-0.1059,0.1818,0.3089,0.9266,0.6177
+India,Madhya Pradesh,Dindori,70172,hard,"Madhya Pradesh, Chhattisgarh",16,0.0348,-0.0443,0.2123,0.375,-0.1045,-0.0348,-0.0696
+India,Madhya Pradesh,Harda,70173,hard,"Madhya Pradesh, Chhattisgarh",13,0.4074,0.0814,0.7261,0.6923,-1.2223,-0.4074,-0.8149
+India,Madhya Pradesh,Katni,70174,hard,"Madhya Pradesh, Chhattisgarh",20,0.1563,-0.0529,0.379,0.55,-0.4688,-0.1563,-0.3125
+India,Madhya Pradesh,Neemuch,70175,alluvium,Rajasthan,31,0.1069,-0.1923,0.4817,0.5161,-1.7097,-0.8549,-1.2823
+India,Madhya Pradesh,Sheopur,70176,hard,"Madhya Pradesh, Chhattisgarh",17,0.15,-0.0893,0.5284,0.5294,-0.45,-0.15,-0.3
+India,Madhya Pradesh,Umaria,70177,hard,"Madhya Pradesh, Chhattisgarh",10,0.1464,-0.0356,0.2596,0.7,-0.4393,-0.1464,-0.2929
+India,Uttar Pradesh,Basti,17898,alluvium,"Uttar Pradesh, Uttarakhand",6,0.1791,0.0899,0.2782,0.6667,-2.8657,-1.4329,-2.1493
+India,Uttar Pradesh,Meerut,17926,alluvium,"Uttar Pradesh, Uttarakhand",8,0.258,0.1214,0.6246,0.75,-4.1281,-2.064,-3.096
+India,Uttar Pradesh,Auraiya,70258,alluvium,"Uttar Pradesh, Uttarakhand",8,0.4048,0.2793,0.7024,0.875,-6.4771,-3.2386,-4.8579
+India,Uttar Pradesh,Gautam Buddha Nagar,70265,alluvium,"Uttar Pradesh, Uttarakhand",8,0.508,0.2064,1.0214,0.75,-8.1286,-4.0643,-6.0964
+India,Uttar Pradesh,Kannauj,70268,alluvium,"Uttar Pradesh, Uttarakhand",6,0.196,-0.399,0.7595,0.5,-3.136,-1.568,-2.352
+India,Bihar,Bhagalpur,17596,hard,"Bihar, Jharkhand",13,0.0186,-0.1314,0.4336,0.4615,-0.0557,-0.0186,-0.0371
+India,Bihar,Munger,17614,hard,"Bihar, Jharkhand",9,0.3167,-0.0743,0.3244,0.6667,-0.9502,-0.3167,-0.6335
+India,Bihar,Rohtas,17623,hard,"Bihar, Jharkhand",16,0.3471,0.1057,0.4224,0.8125,-1.0413,-0.3471,-0.6942
+India,Bihar,Saharsa,17624,hard,"Bihar, Jharkhand",11,0.0714,0.0126,0.1323,0.3636,-0.2143,-0.0714,-0.1429
+India,Bihar,Sitamarhi,17630,alluvium,Nepal,8,-0.0473,-0.056,-0.0,0.125,0.3786,0.7571,0.5679
+India,Bihar,Banka,70095,hard,"Bihar, Jharkhand",12,0.2043,0.1146,0.3432,0.75,-0.6129,-0.2043,-0.4086
+India,Bihar,Bhabua,70096,hard,"Bihar, Jharkhand",8,0.3112,-0.0992,0.5638,0.625,-0.9337,-0.3112,-0.6225
+India,Bihar,Bhojpur,70097,hard,"Bihar, Jharkhand",8,0.2141,0.1109,0.2512,0.75,-0.6423,-0.2141,-0.4282
+India,Bihar,Buxar,70098,alluvium,"Uttar Pradesh, Uttarakhand",6,-0.0409,-0.1367,0.0672,0.1667,0.3274,0.6549,0.4911
+India,Bihar,Jamui,70099,hard,"Bihar, Jharkhand",12,-0.0066,-0.0889,0.0884,0.25,0.0066,0.0199,0.0133
+India,Bihar,Sheikhpura,70102,hard,"Bihar, Jharkhand",6,0.1911,0.0725,0.4091,0.6667,-0.5734,-0.1911,-0.3823
+India,Bihar,Supaul,70104,hard,"Bihar, Jharkhand",20,-0.01,-0.0824,0.0816,0.25,0.01,0.0301,0.0201
+India,Jharkhand,Bokaro,70139,hard,"Bihar, Jharkhand",10,0.2009,-0.0343,0.3054,0.6,-0.6027,-0.2009,-0.4018
+India,Jharkhand,Chatra,70140,hard,"Bihar, Jharkhand",7,0.2232,0.1685,0.4537,0.8571,-0.6696,-0.2232,-0.4464
+India,Jharkhand,Garhwa,70143,hard,"Bihar, Jharkhand",6,0.3315,0.2635,0.6769,0.8333,-0.9944,-0.3315,-0.6629
+India,Jharkhand,Giridih,70144,hard,"Bihar, Jharkhand",17,0.4132,0.2059,0.5217,0.8235,-1.2396,-0.4132,-0.8264
+India,Jharkhand,Hazaribag,70146,hard,"Bihar, Jharkhand",13,0.2279,0.0493,0.4321,0.6923,-0.6836,-0.2279,-0.4557
+India,Jharkhand,Pakur,70150,hard,"Bihar, Jharkhand",6,0.0158,-0.3711,0.2266,0.5,-0.0473,-0.0158,-0.0315
+India,Jharkhand,Sahibganj,70154,hard,"Bihar, Jharkhand",10,-0.029,-0.3089,0.0461,0.2,0.029,0.087,0.058
+India,Gujarat,Banas Kantha,17637,alluvium,Gujarat,40,0.3623,-0.62,1.3977,0.55,-5.7971,-2.8986,-4.3479
+India,Gujarat,Mahesana,17645,alluvium,Gujarat,32,-0.208,-0.5446,0.0362,0.2188,1.6643,3.3286,2.4964
+India,Gujarat,Patan,70129,alluvium,Gujarat,18,-0.0271,-0.3051,0.2265,0.3889,0.2169,0.4337,0.3253
+India,Jharkhand,Dumka,70142,hard,"Bihar, Jharkhand",14,-0.0134,-0.0982,0.1693,0.4286,0.0134,0.0403,0.0269
+India,Jharkhand,Gumla,70145,hard,"Bihar, Jharkhand",10,0.3756,0.2701,0.4766,0.9,-1.1267,-0.3756,-0.7511
+India,Jharkhand,Latehar,70149,hard,"Bihar, Jharkhand",11,0.1111,-0.0264,0.4791,0.5455,-0.3332,-0.1111,-0.2221
+India,Jharkhand,Palamu,70151,hard,"Bihar, Jharkhand",13,0.3243,-0.0069,0.4774,0.6154,-0.9729,-0.3243,-0.6486
+India,Jharkhand,Pashchim Singhbhum,70152,hard,"Bihar, Jharkhand",8,0.011,-0.1559,0.0957,0.25,-0.0331,-0.011,-0.0221
+India,Jharkhand,Saraikela Kharsawan,70155,hard,"Bihar, Jharkhand",5,0.1714,-0.4032,0.3243,0.6,-0.5143,-0.1714,-0.3429
+India,Jharkhand,Simdega,70156,hard,"Bihar, Jharkhand",7,0.0889,-0.0857,0.4288,0.4286,-0.2668,-0.0889,-0.1778
+India,Madhya Pradesh,East Nimar,17725,hard,"Madhya Pradesh, Chhattisgarh",29,0.1391,-0.076,0.3532,0.5172,-0.4174,-0.1391,-0.2783
+India,Madhya Pradesh,Guna,17726,hard,"Madhya Pradesh, Chhattisgarh",22,0.2201,-0.0447,0.3404,0.5909,-0.6602,-0.2201,-0.4401
+India,Madhya Pradesh,Shahdol,17748,hard,"Madhya Pradesh, Chhattisgarh",33,0.1761,-0.0792,0.3154,0.6364,-0.5282,-0.1761,-0.3521
+India,Madhya Pradesh,Anuppur,70168,hard,"Madhya Pradesh, Chhattisgarh",14,0.1712,0.0405,0.6591,0.6429,-0.5137,-0.1712,-0.3425
+India,Madhya Pradesh,Ashoknagar,70169,hard,"Madhya Pradesh, Chhattisgarh",15,-0.0143,-0.5562,0.2319,0.4,0.0143,0.0429,0.0286
+India,Delhi,Delhi,17633,alluvium,"Uttar Pradesh, Uttarakhand",87,0.152,0.0016,0.6358,0.5977,-2.432,-1.216,-1.824
+India,Gujarat,Ahmadabad,17635,alluvium,Gujarat,25,0.1209,-0.4739,0.5515,0.52,-1.9349,-0.9674,-1.4512
+India,Gujarat,Amreli,17636,alluvium,Gujarat,42,0.1611,-0.1576,0.7822,0.5238,-2.5771,-1.2886,-1.9329
+India,Gujarat,Bhavnagar,17639,alluvium,Gujarat,38,0.1162,-0.3309,0.706,0.5,-1.86,-0.93,-1.395
+India,Gujarat,Gandhinagar,17640,alluvium,Gujarat,18,0.3057,-0.2947,1.3153,0.6111,-4.8913,-2.4457,-3.6685
+India,Gujarat,Jamnagar,17641,alluvium,Gujarat,46,0.118,-0.0531,0.4725,0.5217,-1.8886,-0.9443,-1.4164
+India,Gujarat,Kachchh,17643,alluvium,Gujarat,42,0.309,0.0128,0.6714,0.6429,-4.944,-2.472,-3.708
+India,Gujarat,Rajkot,17647,alluvium,Gujarat,49,0.2836,-0.2471,0.6971,0.5714,-4.5371,-2.2686,-3.4029
+India,Gujarat,Sabar Kantha,17648,alluvium,Gujarat,35,0.1286,-0.015,0.4054,0.5429,-2.0571,-1.0286,-1.5429
+India,Gujarat,Surendranagar,17650,alluvium,Gujarat,29,-0.0557,-0.4207,0.2877,0.3448,0.4457,0.8914,0.6686
+India,Gujarat,Vadodara,17652,alluvium,Gujarat,46,0.194,-0.1293,0.6043,0.5435,-3.1046,-1.5523,-2.3284
+India,Haryana,Bhiwani,17655,alluvium,"Indian Punjab, Haryana, Delhi",27,0.0159,-0.1744,0.2732,0.4444,-0.2537,-0.1269,-0.1903
+India,Haryana,Gurgaon,17657,alluvium,"Indian Punjab, Haryana, Delhi",14,0.3087,-0.0489,1.1196,0.5714,-4.9395,-2.4697,-3.7046
+India,Haryana,Jind,17659,alluvium,"Indian Punjab, Haryana, Delhi",12,0.3416,0.0587,0.6656,0.75,-5.465,-2.7325,-4.0988
+India,Haryana,Sirsa,17664,alluvium,"Indian Punjab, Haryana, Delhi",30,0.2129,0.0051,0.4172,0.6333,-3.4069,-1.7034,-2.5551
+India,Haryana,Faridabad,70131,alluvium,"Indian Punjab, Haryana, Delhi",13,0.4436,0.2693,0.8771,0.8462,-7.0971,-3.5486,-5.3229
+India,Himachal Pradesh,Kangra,17669,alluvium,"Western Himalaya, Karakoram",33,0.0068,-0.1368,0.1089,0.2727,-0.1086,-0.0543,-0.0814
+India,Himachal Pradesh,Mandi,17673,alluvium,"Western Himalaya, Karakoram",7,0.0186,-0.0021,0.0248,0.1429,-0.2971,-0.1486,-0.2229
+India,Himachal Pradesh,Sirmaur,17675,alluvium,"Western Himalaya, Karakoram",12,0.198,0.0033,0.2669,0.5833,-3.1686,-1.5843,-2.3764
+India,Himachal Pradesh,Solan,17676,alluvium,"Western Himalaya, Karakoram",8,0.3096,0.209,0.6193,0.75,-4.9536,-2.4768,-3.7152
+India,Himachal Pradesh,Una,17677,alluvium,"Western Himalaya, Karakoram",29,0.022,-0.0432,0.1514,0.3448,-0.3528,-0.1764,-0.2646
+India,Punjab,Amritsar,17821,alluvium,"Indian Punjab, Haryana, Delhi",14,0.2039,0.09,0.3059,0.7143,-3.2629,-1.6314,-2.4471
+India,Punjab,Firozpur,17825,alluvium,Pakistan Punjab,20,0.1556,0.0684,0.2581,0.7,-2.4891,-1.2446,-1.8669
+India,Punjab,Gurdaspur,17826,alluvium,Pakistan Punjab,21,-0.0196,-0.0971,0.1741,0.2857,0.1565,0.313,0.2347
+India,Punjab,Jalandhar,17828,alluvium,"Indian Punjab, Haryana, Delhi",26,0.5399,0.3179,0.7962,0.8462,-8.6389,-4.3194,-6.4791
+India,Punjab,Kapurthala,17829,alluvium,"Indian Punjab, Haryana, Delhi",11,0.3297,0.1359,0.555,0.8182,-5.2754,-2.6377,-3.9566
+India,Punjab,Ludhiana,17830,alluvium,"Indian Punjab, Haryana, Delhi",17,0.285,0.0625,0.636,0.6471,-4.56,-2.28,-3.42
+India,Punjab,Sangrur,17833,alluvium,"Indian Punjab, Haryana, Delhi",13,1.3834,1.2451,1.4782,1.0,-22.1349,-11.0674,-16.6011
+India,Rajasthan,Ajmer,17834,alluvium,Rajasthan,25,0.3121,-0.0629,0.5754,0.68,-4.9943,-2.4971,-3.7457
+India,Rajasthan,Alwar,17835,alluvium,Rajasthan,22,1.6195,0.8256,2.3442,1.0,-25.9114,-12.9557,-19.4336
+India,Rajasthan,Banswara,17836,alluvium,Rajasthan,32,0.0456,-0.2229,0.4854,0.4375,-0.7303,-0.3651,-0.5477
+India,Rajasthan,Barmer,17837,alluvium,Rajasthan,44,0.0659,-0.1734,0.5372,0.4545,-1.0549,-0.5274,-0.7912
+India,Rajasthan,Bhilwara,17839,alluvium,Rajasthan,30,-0.025,-0.6046,0.6425,0.4333,0.2,0.4,0.3
+India,Rajasthan,Bikaner,17840,alluvium,Rajasthan,32,0.1853,0.0732,0.7076,0.5938,-2.9651,-1.4826,-2.2239
+India,Rajasthan,Bundi,17841,alluvium,Rajasthan,12,-0.0762,-0.2705,0.0573,0.25,0.61,1.22,0.915
+India,Rajasthan,Chittaurgarh,17842,alluvium,Rajasthan,24,-0.0843,-0.3443,0.3126,0.3333,0.6743,1.3486,1.0114
+India,Rajasthan,Churu,17843,alluvium,Rajasthan,22,0.3115,-0.0269,0.7158,0.5909,-4.9837,-2.4919,-3.7378
+India,Rajasthan,Dungarpur,17845,alluvium,Rajasthan,17,0.3137,0.0768,0.5132,0.7059,-5.0195,-2.5098,-3.7647
+India,Rajasthan,Jaisalmer,17848,alluvium,Rajasthan,40,-0.0456,-0.4272,0.1445,0.275,0.3651,0.7303,0.5477
+India,Rajasthan,Jalor,17849,alluvium,Rajasthan,8,-0.1693,-0.7941,0.1163,0.25,1.3543,2.7086,2.0314
+India,Rajasthan,Jhalawar,17850,alluvium,Rajasthan,23,-0.6186,-0.7763,-0.2528,0.1304,4.9486,9.8971,7.4229
+India,Rajasthan,Jhunjhunun,17851,alluvium,Rajasthan,11,1.4029,0.5717,2.2214,0.8182,-22.4457,-11.2229,-16.8343
+India,Rajasthan,Jodhpur,17852,alluvium,Rajasthan,22,0.0236,-0.2664,0.3185,0.4091,-0.3783,-0.1891,-0.2837
+India,Rajasthan,Nagaur,17854,alluvium,Rajasthan,17,0.121,-0.1674,0.406,0.5294,-1.936,-0.968,-1.452
+India,Rajasthan,Pali,17855,alluvium,Rajasthan,20,-0.3593,-1.0782,-0.012,0.15,2.8743,5.7486,4.3114
+India,Rajasthan,Sikar,17857,alluvium,Rajasthan,27,1.1829,0.5018,1.5932,0.963,-18.9257,-9.4629,-14.1943
+India,Rajasthan,Sirohi,17858,alluvium,Rajasthan,14,0.0975,0.0069,0.4972,0.5,-1.5594,-0.7797,-1.1695
+India,Rajasthan,Tonk,17859,alluvium,Rajasthan,17,0.4183,0.1364,0.7621,0.7647,-6.6926,-3.3463,-5.0194
+India,Bihar,Aurangabad,17594,hard,"Bihar, Jharkhand",12,0.1635,0.0637,0.3419,0.5833,-0.4906,-0.1635,-0.3271
+India,Bihar,Begusarai,17595,hard,"Bihar, Jharkhand",16,0.0307,-0.0556,0.183,0.375,-0.0921,-0.0307,-0.0614
+India,Bihar,Darbhanga,17598,hard,"Bihar, Jharkhand",8,0.0286,-0.1095,0.1117,0.25,-0.0857,-0.0286,-0.0571
+India,Bihar,Gaya,17601,hard,"Bihar, Jharkhand",8,0.2351,-0.0659,0.2734,0.625,-0.7054,-0.2351,-0.4703
+India,Bihar,Gopalganj,17604,hard,"Bihar, Jharkhand",13,0.2083,0.1393,0.373,0.7692,-0.6248,-0.2083,-0.4166
+India,Bihar,Jehanabad,17607,hard,"Bihar, Jharkhand",10,0.053,-0.0348,0.2831,0.4,-0.1589,-0.053,-0.1059
+India,Bihar,Katihar,17608,hard,"Bihar, Jharkhand",15,-0.1957,-0.2871,-0.1007,0.0667,0.1957,0.5871,0.3914
+India,Bihar,Khagaria,17609,hard,"Bihar, Jharkhand",12,0.029,-0.0268,0.1507,0.4167,-0.087,-0.029,-0.058
+India,Bihar,Madhubani,17611,hard,"Bihar, Jharkhand",19,-0.0768,-0.2023,-0.007,0.0526,0.0768,0.2304,0.1536
+India,Bihar,Madhepura,17612,hard,"Bihar, Jharkhand",11,-0.0654,-0.1403,0.0019,0.0909,0.0654,0.1961,0.1307
+India,Bihar,Muzaffarpur,17613,hard,"Bihar, Jharkhand",20,0.1675,0.0815,0.2362,0.75,-0.5025,-0.1675,-0.335
+India,Bihar,Nalanda,17615,hard,"Bihar, Jharkhand",28,0.1164,-0.0823,0.5013,0.5357,-0.3493,-0.1164,-0.2329
+India,Bihar,Nawada,17616,hard,"Bihar, Jharkhand",8,0.2613,0.1517,0.4827,0.75,-0.784,-0.2613,-0.5226
+India,Bihar,Pashchim Champaran,17618,hard,"Bihar, Jharkhand",13,0.0423,-0.0831,0.1249,0.3077,-0.1269,-0.0423,-0.0846
+India,Bihar,Patna,17619,hard,"Bihar, Jharkhand",32,0.3901,0.2063,0.5501,0.8125,-1.1704,-0.3901,-0.7803
+India,Bihar,Purba Champaran,17620,hard,"Bihar, Jharkhand",19,0.0794,-0.0031,0.1945,0.4737,-0.2382,-0.0794,-0.1588
+India,Bihar,Purnia,17621,hard,"Bihar, Jharkhand",13,-0.1729,-0.3383,-0.0597,0.1538,0.1729,0.5186,0.3457
+India,Bihar,Samastipur,17626,hard,"Bihar, Jharkhand",12,-0.0704,-0.2342,0.1558,0.4167,0.0704,0.2113,0.1409
+India,Bihar,Saran,17628,hard,"Bihar, Jharkhand",23,0.341,0.1141,0.5348,0.8696,-1.023,-0.341,-0.682
+India,Bihar,Siwan,17631,hard,"Bihar, Jharkhand",16,0.333,0.1825,0.4272,0.875,-0.999,-0.333,-0.666
+India,Bihar,Vaishali,17632,hard,"Bihar, Jharkhand",12,0.1857,0.0949,0.2964,0.5833,-0.557,-0.1857,-0.3713
+India,Bihar,Araria,70094,hard,"Bihar, Jharkhand",5,-0.0889,-0.1434,0.0297,0.0,0.0889,0.2668,0.1779
+India,Chandigarh,Chandigarh,17823,alluvium,"Indian Punjab, Haryana, Delhi",15,0.3498,0.0792,0.4538,0.6667,-5.5972,-2.7986,-4.1979
+India,Chhattisgarh,Raigarh,70297,hard,"Madhya Pradesh, Chhattisgarh",62,0.1488,-0.0818,0.3414,0.5806,-0.4463,-0.1488,-0.2975
+India,Jharkhand,Deoghar,17600,hard,"Bihar, Jharkhand",6,0.3426,-0.1246,0.5295,0.6667,-1.0278,-0.3426,-0.6852
+India,Jharkhand,Godda,17603,hard,"Bihar, Jharkhand",5,-0.1504,-0.178,-0.0664,0.2,0.1504,0.4511,0.3007
+India,Jharkhand,Lohardaga,17610,hard,"Bihar, Jharkhand",5,0.5332,0.2368,0.592,0.8,-1.5996,-0.5332,-1.0664
+India,Jharkhand,Ranchi,17622,hard,"Bihar, Jharkhand",18,0.0943,-0.0222,0.1697,0.4444,-0.283,-0.0943,-0.1886
+India,Jharkhand,Dhanbad,70141,hard,"Bihar, Jharkhand",6,0.1838,0.0872,0.2738,0.6667,-0.5514,-0.1838,-0.3676
+India,Madhya Pradesh,Balaghat,17712,hard,"Madhya Pradesh, Chhattisgarh",43,0.0375,-0.2555,0.3168,0.4419,-0.1125,-0.0375,-0.075
+India,Madhya Pradesh,Betul,17714,hard,"Madhya Pradesh, Chhattisgarh",30,0.2015,0.0743,0.5936,0.7333,-0.6044,-0.2015,-0.4029
+India,Madhya Pradesh,Bhind,17715,hard,"Madhya Pradesh, Chhattisgarh",13,0.0221,-0.0661,0.3322,0.4615,-0.0664,-0.0221,-0.0443
+India,Madhya Pradesh,Bhopal,17716,hard,"Madhya Pradesh, Chhattisgarh",10,0.3586,0.1588,0.5397,0.8,-1.0757,-0.3586,-0.7171
+India,Madhya Pradesh,Chhatarpur,17718,hard,"Madhya Pradesh, Chhattisgarh",39,0.2711,0.0512,0.6385,0.6667,-0.8134,-0.2711,-0.5423
+India,Madhya Pradesh,Chhindwara,17719,hard,"Madhya Pradesh, Chhattisgarh",44,0.183,0.0263,0.4561,0.6591,-0.549,-0.183,-0.366
+India,Madhya Pradesh,Damoh,17720,hard,"Madhya Pradesh, Chhattisgarh",25,0.2096,-0.0136,0.6086,0.68,-0.6289,-0.2096,-0.4193
+India,Madhya Pradesh,Datia,17721,hard,"Madhya Pradesh, Chhattisgarh",9,0.5191,0.4579,0.8304,1.0,-1.5574,-0.5191,-1.0383
+India,Madhya Pradesh,Dewas,17722,hard,"Madhya Pradesh, Chhattisgarh",27,0.1575,0.0018,0.6484,0.5926,-0.4725,-0.1575,-0.315
+India,Madhya Pradesh,Dhar,17723,hard,"Madhya Pradesh, Chhattisgarh",41,0.0246,-0.2336,0.3709,0.3902,-0.0739,-0.0246,-0.0493
+India,Madhya Pradesh,Gwalior,17727,hard,"Madhya Pradesh, Chhattisgarh",15,0.1872,-0.013,0.4405,0.6667,-0.5615,-0.1872,-0.3743
+India,Madhya Pradesh,Indore,17729,hard,"Madhya Pradesh, Chhattisgarh",33,0.2407,-0.13,1.2371,0.6364,-0.7221,-0.2407,-0.4814
+India,Madhya Pradesh,Jhabua,17731,hard,"Madhya Pradesh, Chhattisgarh",25,0.0627,-0.1879,0.3182,0.48,-0.188,-0.0627,-0.1253
+India,Madhya Pradesh,Narsinghpur,17735,hard,"Madhya Pradesh, Chhattisgarh",14,-0.055,-0.3578,0.2514,0.2857,0.055,0.165,0.11
+India,Madhya Pradesh,Panna,17736,hard,"Madhya Pradesh, Chhattisgarh",29,0.2874,0.0607,0.4864,0.7241,-0.8623,-0.2874,-0.5749
+India,Madhya Pradesh,Raisen,17739,hard,"Madhya Pradesh, Chhattisgarh",30,0.0477,-0.0606,0.3593,0.4667,-0.143,-0.0477,-0.0954
+India,Madhya Pradesh,Ratlam,17742,alluvium,Rajasthan,42,0.0912,-0.2095,0.8379,0.5,-1.4596,-0.7298,-1.0947
+India,Madhya Pradesh,Rewa,17743,hard,"Madhya Pradesh, Chhattisgarh",33,0.2621,-0.0014,0.4547,0.6667,-0.7864,-0.2621,-0.5243
+India,Madhya Pradesh,Sagar,17744,hard,"Madhya Pradesh, Chhattisgarh",40,0.2955,-0.0705,0.5437,0.65,-0.8866,-0.2955,-0.5911
+India,Madhya Pradesh,Satna,17745,hard,"Madhya Pradesh, Chhattisgarh",48,0.217,-0.0028,0.5198,0.6458,-0.6509,-0.217,-0.4339
+India,Madhya Pradesh,Sehore,17746,hard,"Madhya Pradesh, Chhattisgarh",25,0.3436,0.1111,0.3979,0.8,-1.0307,-0.3436,-0.6871
+India,Madhya Pradesh,Seoni,17747,hard,"Madhya Pradesh, Chhattisgarh",43,0.1221,0.0095,0.3448,0.5581,-0.3664,-0.1221,-0.2443
+India,Madhya Pradesh,Shajapur,17749,hard,"Madhya Pradesh, Chhattisgarh",28,0.1245,-0.0246,0.309,0.5357,-0.3736,-0.1245,-0.2491
+India,Madhya Pradesh,Shivpuri,17750,hard,"Madhya Pradesh, Chhattisgarh",33,0.1732,-0.1603,0.5114,0.5758,-0.5196,-0.1732,-0.3464
+India,Madhya Pradesh,Sidhi,17751,hard,"Madhya Pradesh, Chhattisgarh",52,0.2382,0.0518,0.4594,0.6538,-0.7145,-0.2382,-0.4763
+India,Madhya Pradesh,Tikamgarh,17753,alluvium,"Uttar Pradesh, Uttarakhand",21,0.4071,0.2804,0.7366,0.9048,-6.5143,-3.2571,-4.8857
+India,Madhya Pradesh,Ujjain,17754,hard,"Madhya Pradesh, Chhattisgarh",46,0.1568,-0.1675,0.4407,0.5652,-0.4703,-0.1568,-0.3135
+India,Madhya Pradesh,Vidisha,17755,hard,"Madhya Pradesh, Chhattisgarh",27,0.1014,-0.1211,0.3604,0.5185,-0.3043,-0.1014,-0.2029
+India,Uttar Pradesh,Azamgarh,17892,alluvium,"Uttar Pradesh, Uttarakhand",13,0.2189,0.1586,0.3532,0.8462,-3.5029,-1.7514,-2.6271
+India,Uttar Pradesh,Ballia,17894,alluvium,"Uttar Pradesh, Uttarakhand",15,0.1361,0.0828,0.1576,0.6,-2.1771,-1.0886,-1.6329
+India,Uttar Pradesh,Bara Banki,17896,alluvium,"Uttar Pradesh, Uttarakhand",18,0.1129,0.0793,0.1917,0.5556,-1.8057,-0.9029,-1.3543
+India,Uttar Pradesh,Bareilly,17897,alluvium,"Uttar Pradesh, Uttarakhand",12,0.0227,-0.0213,0.1543,0.3333,-0.3625,-0.1812,-0.2719
+India,Uttar Pradesh,Bijnor,17899,alluvium,"Uttar Pradesh, Uttarakhand",6,0.0698,0.0214,0.1553,0.5,-1.1171,-0.5586,-0.8379
+India,Uttar Pradesh,Etah,17905,alluvium,"Uttar Pradesh, Uttarakhand",10,0.533,0.3168,0.6701,0.9,-8.528,-4.264,-6.396
+India,Uttar Pradesh,Fatehpur,17909,alluvium,"Uttar Pradesh, Uttarakhand",8,0.3561,0.2673,0.5858,0.875,-5.6971,-2.8486,-4.2729
+India,Uttar Pradesh,Ghaziabad,17911,alluvium,"Uttar Pradesh, Uttarakhand",11,0.4664,0.2525,0.6956,1.0,-7.4629,-3.7314,-5.5971
+India,Uttar Pradesh,Ghazipur,17912,alluvium,"Uttar Pradesh, Uttarakhand",9,0.0951,-0.2654,0.1204,0.4444,-1.5223,-0.7611,-1.1417
+India,Uttar Pradesh,Hardoi,17916,alluvium,"Uttar Pradesh, Uttarakhand",9,0.2246,0.1407,0.2871,0.7778,-3.594,-1.797,-2.6955
+India,Uttar Pradesh,Jalaun,17917,alluvium,"Uttar Pradesh, Uttarakhand",20,0.488,0.215,0.8402,0.85,-7.8073,-3.9037,-5.8555
+India,Uttar Pradesh,Jaunpur,17918,alluvium,"Uttar Pradesh, Uttarakhand",14,0.1166,0.0103,0.2773,0.5,-1.866,-0.933,-1.3995
+India,Uttar Pradesh,Jhansi,17919,hard,"Madhya Pradesh, Chhattisgarh",15,0.2946,0.0907,0.429,0.7333,-0.8839,-0.2946,-0.5893
+India,Uttar Pradesh,Kanpur,17920,alluvium,"Uttar Pradesh, Uttarakhand",5,0.1831,0.1771,0.275,1.0,-2.9303,-1.4651,-2.1977
+India,Uttar Pradesh,Lalitpur,17922,alluvium,"Uttar Pradesh, Uttarakhand",7,0.035,0.0079,0.1023,0.2857,-0.56,-0.28,-0.42
+India,Uttar Pradesh,Lucknow,17923,alluvium,"Uttar Pradesh, Uttarakhand",32,0.5914,0.2708,1.2486,0.9062,-9.4629,-4.7314,-7.0971
+India,Uttar Pradesh,Mainpuri,17924,alluvium,"Uttar Pradesh, Uttarakhand",5,0.223,0.1639,0.463,1.0,-3.568,-1.784,-2.676
+India,Uttar Pradesh,Mirzapur,17927,alluvium,"Uttar Pradesh, Uttarakhand",8,0.4978,0.1665,0.564,0.75,-7.9651,-3.9825,-5.9738
+India,Uttar Pradesh,Muzaffarnagar,17929,alluvium,"Uttar Pradesh, Uttarakhand",7,0.6274,0.1351,1.1049,0.8571,-10.0389,-5.0194,-7.5291
+India,Uttar Pradesh,Pilibhit,17931,alluvium,Nepal,8,0.0815,0.0743,0.1291,0.375,-1.3046,-0.6523,-0.9784
+India,Uttar Pradesh,Pratapgarh,17933,alluvium,"Uttar Pradesh, Uttarakhand",15,0.4439,0.3313,0.5288,0.9333,-7.1029,-3.5514,-5.3271
+India,Uttar Pradesh,Rae Bareli,17934,alluvium,"Uttar Pradesh, Uttarakhand",21,0.27,0.2268,0.3335,0.9048,-4.32,-2.16,-3.24
+India,Uttar Pradesh,Saharanpur,17936,alluvium,"Uttar Pradesh, Uttarakhand",10,0.3654,0.1638,0.4912,0.8,-5.8465,-2.9232,-4.3849
+India,Uttar Pradesh,Sitapur,17938,alluvium,"Uttar Pradesh, Uttarakhand",11,0.0821,0.0395,0.265,0.4545,-1.3143,-0.6571,-0.9857
+India,Uttar Pradesh,Sultanpur,17939,alluvium,"Uttar Pradesh, Uttarakhand",28,0.2545,0.1156,0.3749,0.75,-4.0714,-2.0357,-3.0536
+India,Uttar Pradesh,Unnao,17941,alluvium,"Uttar Pradesh, Uttarakhand",13,0.3085,0.1946,0.4132,0.7692,-4.9361,-2.4681,-3.7021
+India,Uttar Pradesh,Badaun,70259,alluvium,"Uttar Pradesh, Uttarakhand",6,0.5215,0.4247,0.6375,1.0,-8.3441,-4.1721,-6.2581
+India,Uttar Pradesh,Kanpur Dehat,70269,alluvium,"Uttar Pradesh, Uttarakhand",6,0.4275,0.2947,0.4796,1.0,-6.8406,-3.4203,-5.1304
+India,Uttar Pradesh,Mau,70274,alluvium,"Uttar Pradesh, Uttarakhand",5,0.1164,0.0029,0.1818,0.6,-1.8629,-0.9314,-1.3971
+India,Uttar Pradesh,Siddharth Nagar,70278,alluvium,"Uttar Pradesh, Uttarakhand",12,0.0469,0.0038,0.2344,0.4167,-0.7509,-0.3754,-0.5631
+India,Uttar Pradesh,Sonbhadra,70279,alluvium,"Uttar Pradesh, Uttarakhand",9,0.3317,0.057,0.3717,0.6667,-5.3074,-2.6537,-3.9806
+India,Uttarakhand,Dehra Dun,17903,alluvium,"Uttar Pradesh, Uttarakhand",12,0.1896,-0.1281,0.548,0.5833,-3.0331,-1.5166,-2.2749
+India,Uttarakhand,Haridwar,70284,alluvium,"Uttar Pradesh, Uttarakhand",5,-0.197,-0.306,-0.085,0.2,1.576,3.152,2.364
+India,Andhra Pradesh,Adilabad,17547,hard,South India (hard rock),63,0.1984,0.0925,0.3932,0.7143,-0.5951,-0.1984,-0.3967
+India,Andhra Pradesh,Anantapur,17548,hard,South India (hard rock),39,0.0289,-0.0994,0.5752,0.4615,-0.0868,-0.0289,-0.0579
+India,Andhra Pradesh,Chittoor,17549,hard,South India (hard rock),38,-0.1148,-0.4218,0.4612,0.4211,0.1148,0.3445,0.2296
+India,Andhra Pradesh,Cuddapah,17550,hard,South India (hard rock),23,-0.0614,-0.232,0.2513,0.4348,0.0614,0.1843,0.1229
+India,Andhra Pradesh,East Godavari,17551,hard,South India (hard rock),78,0.0906,-0.0085,0.3,0.4872,-0.2719,-0.0906,-0.1813
+India,Andhra Pradesh,Guntur,17552,hard,South India (hard rock),86,0.1655,-0.0016,0.4738,0.6163,-0.4966,-0.1655,-0.3311
+India,Andhra Pradesh,Hyderabad,17553,hard,South India (hard rock),15,-0.3393,-0.9187,0.3757,0.3333,0.3393,1.0179,0.6786
+India,Andhra Pradesh,Karimnagar,17554,hard,South India (hard rock),73,0.2835,-0.03,0.7161,0.6164,-0.8504,-0.2835,-0.567
+India,Andhra Pradesh,Khammam,17555,hard,South India (hard rock),58,0.1663,-0.0753,0.3302,0.6207,-0.499,-0.1663,-0.3326
+India,Andhra Pradesh,Krishna,17556,alluvium,,59,0.0983,0.0374,0.3392,0.4915,-1.5721,-0.786,-1.1791
+India,Andhra Pradesh,Kurnool,17557,hard,South India (hard rock),43,0.0818,-0.1126,0.4811,0.4884,-0.2454,-0.0818,-0.1636
+India,Andhra Pradesh,Mahbubnagar,17558,hard,South India (hard rock),36,0.2511,-0.2032,0.7293,0.5833,-0.7532,-0.2511,-0.5021
+India,Andhra Pradesh,Medak,17559,hard,South India (hard rock),36,0.5088,0.1147,0.9967,0.75,-1.5265,-0.5088,-1.0177
+India,Andhra Pradesh,Nalgonda,17560,hard,South India (hard rock),63,0.0939,-0.1838,0.4033,0.4921,-0.2818,-0.0939,-0.1879
+India,Andhra Pradesh,Nellore,17561,hard,South India (hard rock),46,0.3061,0.1111,0.6682,0.7826,-0.9182,-0.3061,-0.6121
+India,Andhra Pradesh,Nizamabad,17562,hard,South India (hard rock),41,0.414,0.0657,1.0,0.7317,-1.2419,-0.414,-0.8279
+India,Andhra Pradesh,Prakasam,17563,hard,South India (hard rock),41,0.3121,0.1246,0.73,0.8049,-0.9364,-0.3121,-0.6243
+India,Andhra Pradesh,Rangareddi,17564,hard,South India (hard rock),80,0.242,-0.2133,0.874,0.6125,-0.726,-0.242,-0.484
+India,Andhra Pradesh,Srikakulam,17565,hard,South India (hard rock),39,0.0477,-0.1413,0.2026,0.3333,-0.1431,-0.0477,-0.0954
+India,Andhra Pradesh,Vishakhapatnam,17566,hard,South India (hard rock),59,0.1171,-0.0196,0.3913,0.5085,-0.3514,-0.1171,-0.2343
+India,Andhra Pradesh,Vizianagaram,17567,hard,South India (hard rock),36,0.2472,0.1089,0.3652,0.75,-0.7415,-0.2472,-0.4944
+India,Andhra Pradesh,Warangal,17568,hard,South India (hard rock),81,0.2318,0.0121,0.61,0.6914,-0.6954,-0.2318,-0.4636
+India,Andhra Pradesh,West Godavari,17569,hard,South India (hard rock),54,0.1372,0.0195,0.3504,0.5926,-0.4116,-0.1372,-0.2744
+India,Goa,North Goa,70122,hard,Maharashtra,33,0.0066,-0.0932,0.0822,0.1515,-0.0199,-0.0066,-0.0132
+India,Goa,South Goa,70123,hard,South India (hard rock),25,-0.0091,-0.13,0.0476,0.12,0.0091,0.0274,0.0183
+India,Gujarat,Surat,17649,alluvium,Gujarat,46,-0.0279,-0.4245,0.1326,0.3043,0.2229,0.4457,0.3343
+India,Gujarat,The Dangs,17651,alluvium,Gujarat,23,-0.1404,-0.3545,0.2065,0.3043,1.1229,2.2457,1.6843
+India,Gujarat,Valsad,17653,alluvium,Gujarat,23,-0.0586,-0.3293,0.1482,0.3478,0.4686,0.9371,0.7029
+India,Gujarat,Navsari,70127,alluvium,Gujarat,22,0.1093,-0.0488,0.3178,0.5,-1.7491,-0.8746,-1.3119
+India,Karnataka,Belgaum,17679,hard,South India (hard rock),86,0.1476,-0.0559,0.3336,0.5581,-0.4429,-0.1476,-0.2953
+India,Karnataka,Bellary,17680,hard,South India (hard rock),34,0.2373,0.0897,0.5356,0.7353,-0.712,-0.2373,-0.4746
+India,Karnataka,Bidar,17681,hard,South India (hard rock),29,0.1921,-0.1911,0.58,0.5517,-0.5764,-0.1921,-0.3843
+India,Karnataka,Bijapur,17682,hard,South India (hard rock),63,0.1621,-0.1989,0.3053,0.5397,-0.4864,-0.1621,-0.3243
+India,Karnataka,Chikmagalur,17683,hard,South India (hard rock),72,0.0628,-0.0869,0.2702,0.4444,-0.1885,-0.0628,-0.1257
+India,Karnataka,Dakshin Kannad,17685,hard,South India (hard rock),95,0.2,0.0819,0.3823,0.6947,-0.6,-0.2,-0.4
+India,Karnataka,Dharwad,17686,hard,South India (hard rock),21,-0.2339,-0.6689,-0.0077,0.1429,0.2339,0.7018,0.4678
+India,Karnataka,Gulbarga,17687,hard,South India (hard rock),71,-0.005,-0.2653,0.408,0.3803,0.005,0.015,0.01
+India,Karnataka,Hassan,17688,hard,South India (hard rock),42,0.037,-0.1639,0.3735,0.4762,-0.111,-0.037,-0.074
+India,Karnataka,Kodagu,17689,hard,South India (hard rock),51,0.04,-0.2096,0.2808,0.4314,-0.12,-0.04,-0.08
+India,Karnataka,Kolar,17690,hard,South India (hard rock),20,-0.0469,-0.3047,0.198,0.3,0.0469,0.1406,0.0937
+India,Karnataka,Mandya,17691,hard,South India (hard rock),39,-0.05,-0.2448,0.3002,0.359,0.05,0.15,0.1
+India,Karnataka,Mysore,17692,hard,South India (hard rock),38,-0.2256,-0.5817,-0.0637,0.2105,0.2256,0.6767,0.4511
+India,Karnataka,Raichur,17693,hard,South India (hard rock),36,0.0799,-0.1079,0.4393,0.4722,-0.2396,-0.0799,-0.1597
+India,Karnataka,Shimoga,17694,hard,South India (hard rock),54,0.2116,-0.0596,0.6102,0.6111,-0.6347,-0.2116,-0.4231
+India,Karnataka,Tumkur,17695,hard,South India (hard rock),36,-0.0577,-0.4874,0.224,0.3333,0.0577,0.1731,0.1154
+India,Karnataka,Uttar Kannand,17696,hard,South India (hard rock),83,0.1589,0.0677,0.3153,0.6506,-0.4766,-0.1589,-0.3177
+India,Karnataka,Bagalkot,70157,hard,South India (hard rock),24,0.2249,-0.0495,0.5016,0.5417,-0.6746,-0.2249,-0.4498
+India,Karnataka,Bangalore Rural,70158,hard,South India (hard rock),38,-0.1374,-1.0155,0.2056,0.3947,0.1374,0.4121,0.2748
+India,Karnataka,Bangalore Urban,70159,hard,South India (hard rock),36,-0.0136,-0.3347,0.3075,0.3333,0.0136,0.0407,0.0271
+India,Karnataka,Chamrajnagar,70160,hard,South India (hard rock),23,-0.334,-0.7069,0.1869,0.3043,0.334,1.002,0.668
+India,Karnataka,Chitradurga,70161,hard,South India (hard rock),25,0.295,0.0961,0.7114,0.68,-0.885,-0.295,-0.59
+India,Karnataka,Davanagere,70162,hard,South India (hard rock),59,0.2,0.0332,0.6004,0.6441,-0.6,-0.2,-0.4
+India,Karnataka,Gadag,70163,hard,South India (hard rock),16,0.0483,-0.3254,0.2464,0.375,-0.1449,-0.0483,-0.0966
+India,Karnataka,Haveri,70164,hard,South India (hard rock),18,0.3584,-0.0142,0.6479,0.6667,-1.0753,-0.3584,-0.7169
+India,Karnataka,Koppal,70165,hard,South India (hard rock),19,0.1439,-0.3728,0.5269,0.5789,-0.4318,-0.1439,-0.2878
+India,Karnataka,Udupi,70166,hard,South India (hard rock),65,0.198,0.1068,0.2557,0.7538,-0.594,-0.198,-0.396
+India,Maharashtra,Akola,17758,hard,Maharashtra,27,0.6893,0.34,1.0923,0.963,-2.0679,-0.6893,-1.3786
+India,Maharashtra,Amravati,17759,hard,Maharashtra,72,0.3798,0.2372,0.6414,0.8611,-1.1395,-0.3798,-0.7596
+India,Maharashtra,Bhandara,17761,hard,Maharashtra,37,0.2757,0.0979,0.5491,0.7297,-0.8271,-0.2757,-0.5514
+India,Maharashtra,Buldana,17762,hard,Maharashtra,55,0.4586,0.1896,0.7401,0.8,-1.3757,-0.4586,-0.9171
+India,Maharashtra,Chandrapur,17763,hard,Maharashtra,56,0.1505,-0.0345,0.3748,0.5536,-0.4516,-0.1505,-0.3011
+India,Maharashtra,Dhule,17764,hard,Maharashtra,32,0.2649,0.099,0.4715,0.7188,-0.7946,-0.2649,-0.5297
+India,Maharashtra,Garhchiroli,17765,hard,Maharashtra,37,0.025,-0.234,0.2804,0.4054,-0.075,-0.025,-0.05
+India,Maharashtra,Jalgaon,17767,hard,Maharashtra,36,0.1137,-0.1918,0.5544,0.5278,-0.3411,-0.1137,-0.2274
+India,Maharashtra,Kolhapur,17769,hard,Maharashtra,34,-0.1452,-0.3796,-0.0245,0.1471,0.1452,0.4355,0.2904
+India,Maharashtra,Latur,17770,hard,Maharashtra,35,0.0421,-0.2721,0.305,0.4571,-0.1263,-0.0421,-0.0842
+India,Maharashtra,Nagpur,17771,hard,Maharashtra,70,0.2496,0.0608,0.4955,0.7,-0.7489,-0.2496,-0.4993
+India,Maharashtra,Nanded,17772,hard,Maharashtra,48,0.2593,-0.0271,0.6017,0.6875,-0.7779,-0.2593,-0.5186
+India,Maharashtra,Nashik,17773,hard,Maharashtra,77,0.2086,-0.119,0.4486,0.6364,-0.6257,-0.2086,-0.4171
+India,Maharashtra,Osmanabad,17774,hard,Maharashtra,36,0.1453,-0.0203,0.367,0.5278,-0.4359,-0.1453,-0.2906
+India,Maharashtra,Pune,17776,hard,Maharashtra,42,0.0075,-0.1415,0.4927,0.4762,-0.0225,-0.0075,-0.015
+India,Maharashtra,Raigarh,17777,hard,Maharashtra,30,-0.017,-0.1931,0.0961,0.2667,0.017,0.051,0.034
+India,Maharashtra,Ratnagiri,17778,hard,Maharashtra,61,0.1329,-0.005,0.2,0.5574,-0.3986,-0.1329,-0.2657
+India,Maharashtra,Sindhudurg,17779,hard,Maharashtra,49,0.0339,-0.0304,0.188,0.3061,-0.1018,-0.0339,-0.0679
+India,Maharashtra,Sangli,17780,hard,Maharashtra,31,0.03,-0.2157,0.1543,0.3871,-0.09,-0.03,-0.06
+India,Maharashtra,Satara,17781,hard,Maharashtra,41,-0.09,-0.255,0.2036,0.3171,0.09,0.27,0.18
+India,Maharashtra,Solapur,17782,hard,Maharashtra,55,0.1863,-0.0523,0.4665,0.5455,-0.5589,-0.1863,-0.3726
+India,Maharashtra,Thane,17783,hard,Maharashtra,45,0.5137,0.3528,0.6414,0.8667,-1.5411,-0.5137,-1.0274
+India,Maharashtra,Wardha,17784,hard,Maharashtra,52,0.191,0.0562,0.3875,0.6538,-0.5729,-0.191,-0.3819
+India,Maharashtra,Yavatmal,17785,hard,Maharashtra,74,0.3463,0.1402,0.5877,0.7703,-1.0388,-0.3463,-0.6925
+India,Maharashtra,Aurangabad,17786,hard,Maharashtra,24,-0.002,-0.2385,0.2882,0.3333,0.002,0.006,0.004
+India,Maharashtra,Ahmednagar,70178,hard,Maharashtra,36,0.3291,-0.0147,0.9162,0.6389,-0.9874,-0.3291,-0.6583
+India,Maharashtra,Bid,70179,hard,Maharashtra,28,0.257,-0.0629,0.541,0.6071,-0.771,-0.257,-0.514
+India,Maharashtra,Gondiya,70180,hard,Maharashtra,23,0.1939,0.009,0.519,0.6087,-0.5818,-0.1939,-0.3879
+India,Maharashtra,Hingoli,70181,hard,Maharashtra,26,0.3902,0.2089,0.9157,0.8462,-1.1705,-0.3902,-0.7804
+India,Maharashtra,Jalna,70182,hard,Maharashtra,31,0.173,-0.4926,0.7747,0.5161,-0.519,-0.173,-0.346
+India,Maharashtra,Parbhani,70186,hard,Maharashtra,28,0.2303,-0.1532,0.5587,0.5357,-0.6909,-0.2303,-0.4606
+India,Maharashtra,Washim,70187,hard,Maharashtra,35,0.5493,0.1849,0.8914,0.8571,-1.6479,-0.5493,-1.0986
+India,Tamil Nadu,Thoothukudi,17866,hard,South India (hard rock),26,0.0239,-0.147,0.2926,0.3462,-0.0718,-0.0239,-0.0479
+India,Tamil Nadu,Coimbatore,17867,hard,South India (hard rock),36,-0.0876,-0.3591,0.2721,0.3056,0.0876,0.2627,0.1751
+India,Tamil Nadu,Dharmapuri,17868,hard,South India (hard rock),23,0.1519,-0.2451,0.7541,0.5217,-0.4557,-0.1519,-0.3038
+India,Tamil Nadu,Virudhunagar,17869,hard,South India (hard rock),8,0.2055,0.0457,0.5684,0.625,-0.6166,-0.2055,-0.4111
+India,Tamil Nadu,Kanniyakumari,17870,hard,South India (hard rock),10,-0.0377,-0.1562,-0.0108,0.2,0.0377,0.113,0.0753
+India,Tamil Nadu,Nilgiris,17873,hard,South India (hard rock),7,-0.0907,-0.2636,-0.003,0.1429,0.0907,0.2721,0.1814
+India,Tamil Nadu,Erode,17875,hard,South India (hard rock),43,-0.1029,-0.273,0.0861,0.2558,0.1029,0.3086,0.2057
+India,Tamil Nadu,Pudukkottai,17876,hard,South India (hard rock),23,0.2775,0.1662,0.4717,0.7826,-0.8324,-0.2775,-0.5549
+India,Tamil Nadu,Dindigul,17877,hard,South India (hard rock),29,0.1488,-0.2821,0.3029,0.5172,-0.4465,-0.1488,-0.2977
+India,Tamil Nadu,Ramanathapuram,17878,hard,South India (hard rock),20,0.2312,0.0657,0.3899,0.55,-0.6936,-0.2312,-0.4624
+India,Tamil Nadu,Salem,17879,hard,South India (hard rock),20,0.0708,-0.2935,0.3625,0.5,-0.2123,-0.0708,-0.1416
+India,Tamil Nadu,Thanjavur,17881,hard,South India (hard rock),14,0.0487,-0.0554,0.1656,0.3571,-0.1461,-0.0487,-0.0974
+India,Tamil Nadu,Sivaganga,17882,hard,South India (hard rock),16,0.5835,0.3326,0.8139,0.8125,-1.7505,-0.5835,-1.167
+India,Tamil Nadu,Tiruchchirappalli,17883,hard,South India (hard rock),23,0.1766,0.0014,0.3879,0.5652,-0.5297,-0.1766,-0.3531
+India,Tamil Nadu,Tirunelveli Kattabo,17884,hard,South India (hard rock),36,0.169,0.0456,0.431,0.6389,-0.507,-0.169,-0.338
+India,Tamil Nadu,Chennai,70242,hard,South India (hard rock),10,0.1805,0.0557,0.2656,0.7,-0.5415,-0.1805,-0.361
+India,Tamil Nadu,Cuddalore,70243,hard,South India (hard rock),13,0.1014,-0.2327,0.2945,0.5385,-0.3043,-0.1014,-0.2029
+India,Tamil Nadu,Kancheepuram,70244,hard,South India (hard rock),22,0.1496,0.0395,0.2438,0.5909,-0.4487,-0.1496,-0.2992
+India,Tamil Nadu,Karur,70245,hard,South India (hard rock),7,0.112,-0.1228,0.1975,0.5714,-0.336,-0.112,-0.224
+India,Tamil Nadu,Madurai,70246,hard,South India (hard rock),6,0.2526,0.0128,0.4644,0.6667,-0.7577,-0.2526,-0.5051
+India,Tamil Nadu,Nagapattinam,70247,hard,South India (hard rock),12,0.031,-0.1043,0.1246,0.3333,-0.0929,-0.031,-0.062
+India,Tamil Nadu,Namakkal,70248,hard,South India (hard rock),19,0.0546,-0.2799,0.2257,0.4211,-0.1639,-0.0546,-0.1093
+India,Tamil Nadu,Perambalur,70249,hard,South India (hard rock),10,0.3966,-0.0614,0.939,0.7,-1.1897,-0.3966,-0.7931
+India,Tamil Nadu,Theni,70250,hard,South India (hard rock),12,-0.1594,-0.2977,0.1439,0.3333,0.1594,0.4781,0.3187
+India,Tamil Nadu,Thiruvallur,70251,hard,South India (hard rock),15,0.2531,-0.0719,0.7119,0.5333,-0.7593,-0.2531,-0.5062
+India,Tamil Nadu,Tiruvannamalai,70253,hard,South India (hard rock),17,0.0068,-0.1434,0.1431,0.3529,-0.0203,-0.0068,-0.0135
+India,Tamil Nadu,Vellore,70254,hard,South India (hard rock),27,-0.1403,-0.4554,0.0926,0.2593,0.1403,0.4209,0.2806
+India,Tamil Nadu,Villupuram,70255,hard,South India (hard rock),30,0.1426,0.051,0.3518,0.6667,-0.4277,-0.1426,-0.2851
+India,Chhattisgarh,Durg,17724,hard,"Madhya Pradesh, Chhattisgarh",55,0.1827,-0.057,0.4194,0.5818,-0.5482,-0.1827,-0.3655
+India,Chhattisgarh,Bastar,70105,hard,"Madhya Pradesh, Chhattisgarh",11,-0.0061,-0.1262,0.1223,0.2727,0.0061,0.0182,0.0121
+India,Chhattisgarh,Dhamtari,70108,hard,"Madhya Pradesh, Chhattisgarh",20,0.1951,-0.268,0.3897,0.6,-0.5852,-0.1951,-0.3901
+India,Chhattisgarh,Janjgir-Champa,70109,hard,"Madhya Pradesh, Chhattisgarh",45,0.156,-0.0279,0.413,0.5778,-0.468,-0.156,-0.312
+India,Chhattisgarh,Mahasamund,70115,hard,"Madhya Pradesh, Chhattisgarh",23,0.2453,-0.0296,0.6732,0.6522,-0.736,-0.2453,-0.4907
+India,Chhattisgarh,Raipur,70116,hard,"Madhya Pradesh, Chhattisgarh",50,0.1119,-0.367,0.353,0.52,-0.3358,-0.1119,-0.2239
+India,Chhattisgarh,Raj Nandgaon,70117,hard,"Madhya Pradesh, Chhattisgarh",36,0.1244,-0.176,0.2979,0.5278,-0.3731,-0.1244,-0.2487
+India,Dadra and Nagar Haveli,Dadra and Nagar Haveli,70119,alluvium,Gujarat,11,0.195,0.1417,0.6311,0.8182,-3.12,-1.56,-2.34
+India,Madhya Pradesh,Burhanpur,70171,hard,"Madhya Pradesh, Chhattisgarh",15,0.2837,0.2155,0.508,0.9333,-0.8511,-0.2837,-0.5674
+India,Puducherry,Puducherry,70228,hard,South India (hard rock),5,0.6188,0.0566,1.3143,0.6,-1.8564,-0.6188,-1.2376

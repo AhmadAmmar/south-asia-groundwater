@@ -30,6 +30,29 @@ for field, name, vis in (("trend_whole", "Whole record 2002-2026 (ensemble mean)
 nr = qk.vec(G, "units", "Too small for GRACE alone (gain < 0.5 or > half the signal from neighbours)", subset="resolvable = 'False'")
 qk.single(nr, None, "#000000", 0.8); nr.renderer().symbol().symbolLayer(0).setStrokeStyle(qk.Qt.PenStyle.DashLine)
 qk.add(P, nr, groups["Units: groundwater trend (cm of water per year)"])
+F = O / "fine.gpkg"                                   # steps 08-11: districts and 0.1 deg grids, if built
+if F.exists():
+    gd = root.insertGroup(1, "Districts: finer detail (steps 08-11)")
+    o = qk.vec(str(F), "districts", "District boundaries (FAO GAUL level 2)"); qk.single(o, None, "#555555", 0.15)
+    qk.label(o, "ADM2_NAME", 7, min_scale=2_500_000); qk.add(P, o, gd)
+    l = qk.vec(str(F), "districts", "Wells by district: storage change 2013-2020 (cm/yr, mid of specific-yield range; India, >= 5 wells)", subset='"wells" IS NOT NULL')
+    qk.grad(l, "storage_mid_cm_yr", BRK, DIV, LAB, opacity=.9, outline=True); qk.add(P, l, gd)
+    l = qk.vec(str(F), "districts", "Wells vs GRACE by district, 2013-2020 (do both show loss?)", subset='"wells_vs_grace" IS NOT NULL')
+    qk.cat(l, "wells_vs_grace", [("both losing", "both losing", "#8c2d04"), ("wells losing, GRACE not", "wells losing, GRACE not (local loss GRACE smooths out)", "#ec7014"),
+                                 ("GRACE losing, wells not", "GRACE losing, wells not", "#6a51a3"), ("neither losing", "neither losing", "#9ecae1")], opacity=.85)
+    qk.add(P, l, gd, visible=False)
+    l = qk.vec(str(F), "districts", "GRACE by district, 2002-latest (cm/yr; as smooth as GRACE, ~300 km)")
+    qk.grad(l, "grace_whole_cm_yr", BRK, DIV, LAB, opacity=.85, outline=False); qk.add(P, l, gd, visible=False)
+    l = qk.vec(str(F), "districts", "EXPERIMENTAL downscaled by district (not confirmed by wells: see tutorial)")
+    qk.grad(l, "downscaled_whole_cm_yr", BRK, DIV, LAB, opacity=.85, outline=False); qk.add(P, l, gd, visible=False)
+    gg = root.insertGroup(2, "Fine grids, 0.1 deg (~11 km)")
+    st = [(-4, "#8c2d04", "-4"), (-2, "#ec7014", "-2"), (0, "#f7f7f7", "0"), (2, "#4292c6", "+2"), (4, "#08519c", "+4")]
+    for fn, name, stops in (("wells_krige_slope.tif", "Wells, kriged: water-table trend 2013-2020 (m/yr; red = falling; smoothed tendency, within 30 km of wells)",
+                             [(-1, "#2166ac", "-1 rising"), (-0.2, "#92c5de", "-0.2"), (0, "#f7f7f7", "0"), (0.2, "#f4a582", "0.2"), (1, "#b2182b", "+1 falling")]),
+                            ("wells_krige_sd.tif", "Wells, kriged: uncertainty (standard deviation, m/yr)", [(0.3, "#ffffff", "0.3"), (0.7, "#636363", "0.7")]),
+                            ("grace_trend_0p1_plain.tif", "GRACE trend 2002-latest on the 0.1 deg grid, not downscaled (cm/yr)", st),
+                            ("gwsa_trend_0p1_downscaled.tif", "EXPERIMENTAL downscaled GRACE trend 2002-latest (cm/yr; mass-conserving, not confirmed by wells)", st)):
+        l = qk.ras(str(O / fn), name); qk.pseudo(l, 1, stops, opacity=.8); qk.add(P, l, gg, visible=False)
 for field, name in (("rest_2018", "Not explained by rain, 2018-latest"), ("rest_2002", "Not explained by rain, 2002-2009"),
                     ("rain_2018", "Rainfall-driven part, 2018-latest")):
     l = qk.vec(G, "units", name); qk.grad(l, field, BRK, DIV, LAB, opacity=.85, outline=True)

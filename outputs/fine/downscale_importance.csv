@@ -1,0 +1,11 @@
+predictor,importance
+precip_trend,0.229
+et,0.166
+lst_dry,0.115
+elev,0.103
+precip,0.082
+pop,0.078
+ndvi_dry,0.071
+ndvi_dry_trend,0.066
+slope,0.059
+cropland,0.031
