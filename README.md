@@ -26,3 +26,18 @@ GRACE resolves about 300 km. Below that, three things were tried and tested agai
   the detail inside GRACE cells does not match wells (rank correlation 0.03; -0.001 when trained on wells). Kept as an
   experimental layer, not a result.
 All layers are in `outputs/qgis/groundwater.qgz` (groups "Districts: finer detail" and "Fine grids, 0.1 deg").
+
+## Maps (step 12)
+
+`python src/12_maps.py` writes eleven maps to `figures/maps/`, in one style: equal-area projection, the same loss/gain
+classes as the QGIS project, a title that states the finding, a line of context, and the data sources.
+
+| | |
+|---|---|
+| ![](figures/maps/01_groundwater_trend_units.png) | ![](figures/maps/06_wells_vs_grace_districts.png) |
+| 01 groundwater trend by region, 2002-latest | 06 wells vs GRACE by district |
+| ![](figures/maps/02_groundwater_trend_periods.png) | ![](figures/maps/07_grace_resolution_vs_downscaled.png) |
+| 02 three periods | 07 GRACE's real resolution vs downscaled |
+
+Also: 03 rain vs the rest, 04 well trends, 05 wells by district, 08 kriged wells and uncertainty, 09 glacier loss,
+10 total water storage, 11 how much finer detail survives the well tests.
