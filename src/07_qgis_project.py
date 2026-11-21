@@ -46,7 +46,7 @@ for f, name, st in (("gwsa_trend_jplcri_era5.tif", "Groundwater trend per cell, 
                     ("glacier_cmyr.tif", "Glacier mass change 2000-2019, Hugonnet et al. 2021 (cm water/yr over the cell)",
                      [(-10, "#3f007d", "-10"), (-3, "#807dba", "-3"), (-0.5, "#dadaeb", "-0.5"), (0, "#ffffff", "0")])):
     l = qk.ras(str(O / f), name); qk.pseudo(l, 1, st, opacity=.8); qk.add(P, l, groups["Grids"], visible=False)
-qk.add(P, qk.xyz(qk.CARTO_LABELS, "Place labels (CARTO)"), groups["Basemap"])
+qk.add(P, qk.xyz(qk.LABELS, "Place labels and borders (Esri)"), groups["Basemap"])
 qk.add(P, qk.xyz(qk.ESRI, "Satellite imagery (Esri)"), groups["Basemap"], visible=False)
 qk.set_view(P, qk.rect_lonlat([60, 5, 105, 40], "EPSG:4326"), "EPSG:4326")
 P.write(str(O / "groundwater.qgz")); print("wrote", O / "groundwater.qgz")
